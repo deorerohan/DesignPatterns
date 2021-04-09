@@ -28,6 +28,15 @@ Behavioral pattern
 Functions and lambdas can be used to implement strategy pattern.
 Encapsulates algorithms
 
+## Observer Pattern
+
+- Separation of concerns
+- Single responsibility principle
+- Interface segregation principle
+- Open Close principle
+- Dependency inversion principle
+- Encapsulate what varies
+
 ## Unit tests to check implementations
 
 Run *python3 -m unittest* in each respective module folder
