@@ -21,3 +21,13 @@ This repo contains code related to design patterns course.
     - Dependency inversion
 
 Abstractions introduced in PEP 3119 in 2008 in Python 2.6 and 3.0.
+
+## Strategy Pattern
+
+Behavioral pattern
+Functions and lambdas can be used to implement strategy pattern.
+Encapsulates algorithms
+
+## Unit tests to check implementations
+
+Run *python3 -m unittest* in each respective module folder
