@@ -6,6 +6,14 @@
   "configurations": [
 
     {
+      "name": "Python: Builder",
+      "type": "python",
+      "request": "launch",
+      "program": "__main__.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/Builder",
+    },
+    {
       "name": "Python: Command",
       "type": "python",
       "request": "launch",
