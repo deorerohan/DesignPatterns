@@ -1,16 +1,15 @@
 class Singleton():
-    ans = None
+    _instance = {}
 
-    @staticmethod
-    def instance():
-        if '_instance' not in Singleton.__dict__:
-            Singleton._instance = Singleton()
+    def __new__(cls):
+        if cls not in cls._instance:
+            instance = super().__new__(cls)
+            cls._instance[cls] = instance
 
-        return Singleton._instance
+        return cls._instance[cls]
 
-    
 if __name__ == '__main__':
-    s1 = Singleton.instance()
-    s2 = Singleton.instance()
+    s1 = Singleton()
+    s2 = Singleton()
 
     print(f'{s1} : {s2}')
