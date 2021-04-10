@@ -54,6 +54,14 @@ There are 5 different ways to implement Singleton in python
 - Building MonoState base class
 - Python module py_singleton
 
+## Builder Pattern
+
+Problems solved
+
+- Separates how from what
+- Encapsulates what varies
+- Permits different representation
+
 ## Unit tests to check implementations
 
 Run *python3 -m unittest* in each respective module folder
