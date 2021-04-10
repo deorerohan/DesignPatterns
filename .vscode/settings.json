@@ -2,7 +2,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./Strategy",
+        "./Command",
         "-p",
         "test_*.py"
     ],
