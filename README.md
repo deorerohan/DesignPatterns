@@ -37,6 +37,13 @@ Encapsulates algorithms
 - Dependency inversion principle
 - Encapsulate what varies
 
+## Command Pattern
+
+- Single responsibility principle
+- Open Closed principle
+- Dependency inversion principle
+- Long list of if/elif clauses
+
 ## Unit tests to check implementations
 
 Run *python3 -m unittest* in each respective module folder
