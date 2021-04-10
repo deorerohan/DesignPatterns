@@ -62,6 +62,16 @@ Problems solved
 - Encapsulates what varies
 - Permits different representation
 
+## Factory Pattern
+
+- open closed
+- dependencies
+- separation concerns
+
+## Null Pattern
+
+- Provide default object with minimum implementation to avoid null checks
+
 ## Unit tests to check implementations
 
 Run *python3 -m unittest* in each respective module folder
