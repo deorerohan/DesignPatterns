@@ -44,6 +44,16 @@ Encapsulates algorithms
 - Dependency inversion principle
 - Long list of if/elif clauses
 
+## Singleton Pattern
+
+There are 5 different ways to implement Singleton in python
+
+- Simple implementation
+- Building base class with __new__ override
+- Building metaclass
+- Building MonoState base class
+- Python module py_singleton
+
 ## Unit tests to check implementations
 
 Run *python3 -m unittest* in each respective module folder
