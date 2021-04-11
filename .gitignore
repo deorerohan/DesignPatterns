@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+DataStructures/DataStructures/bin/
+DataStructures/DataStructures/obj/
+DataStructures/DataStructures/DataStructures.depend
