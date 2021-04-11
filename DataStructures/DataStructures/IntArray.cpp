@@ -32,4 +32,9 @@ class IntArray
     {
         return (m_size == 0);
     }
+
+    int& operator[](int index)
+    {
+        return m_ptr[index];
+    }
 };

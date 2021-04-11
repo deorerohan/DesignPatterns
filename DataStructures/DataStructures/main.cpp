@@ -13,4 +13,7 @@ int main()
     IntArray b{10};
     cout << b.Size() << endl;
     cout << b.IsEmpty() << endl;
+
+    b[0] = 100;
+    cout << b[0] << endl;
 }
